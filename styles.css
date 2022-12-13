@@ -1,4 +1,32 @@
-* {
-    background-color: navy;
+body {
+    height: 100vh;
+    background-image: url("images/me.JPG");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.head {
+    text-align: center;
+    color: white;
+    background-color: teal;
+    width: 30%;
+    padding: 0.1rem;
+    border-radius: 25px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    position: fixed;
+    left: 30%;
+    top: 34%;
+}
+
+:link {
+    color: brown;
+}
+
+:hover {
     color: white;
 }
