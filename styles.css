@@ -1,6 +1,99 @@
+@font-face {
+    font-family: Tomorrow-Regular;
+    src: url(resources/Tomorrow-Regular.ttf);
+}
+
+:root {
+    --mainFont: Tomorrow-Regular;
+    --red: #FF1616;
+    --yelow: #FFD913;
+    --green: #23CF52;
+    --blue: #006EFF;
+    --darkGray: #2E2D2D;
+    --lightGray: #545454;
+    --white: #FDFDFD;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+html {
+    overflow: hidden;
+}
+
 body {
-    background-image: url("images/transit.png");
+    background-image: url("resources/transit.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #2E2D2D;
+    background-color: var(--darkGray);
+    overflow: hidden;
+}
+
+#name {
+    color: #dedede;
+}
+
+.name,
+.name:visited {
+    color: var(--lightGray);
+    position: absolute;
+    left: 450px;
+    top: 70px;
+    font-family: var(--mainFont);
+    font-size: 80px;
+    color: var(--lightGray);
+    text-shadow: var(--red) 1px 0 10px;
+    transition: transform 0.2s;
+}
+
+.name:hover {
+    transform: scale(1.3);
+}
+
+.nav_btn,
+.nav_btn:visited {
+    position: absolute;
+    color: var(--white);
+    background: var(--lightGray);
+    font-family: var(--mainFont);
+    font-size: 30px;
+    border-radius: 18px;
+    border: 6px solid;
+    padding: 5px;
+    transition: transform 0.2s;
+}
+
+.nav_btn:hover {
+    transform: scale(1.2);
+}
+
+#about_btn {
+    top: 52.5px;
+    left: 50px;
+    border-color: var(--red);
+}
+
+#projects_btn {
+    top: 165px;
+    left: 1280px;
+    border-color: var(--green);
+}
+
+#interests_btn {
+    left: 20px;
+    top: 285px;
+    border-color: var(--yelow);
+}
+
+#contact_btn {
+    left: 843px;
+    top: 605px;
+    border-color: var(--white);
 }
