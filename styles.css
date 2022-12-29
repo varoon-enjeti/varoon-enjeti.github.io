@@ -6,7 +6,7 @@
 :root {
     --mainFont: Tomorrow-Regular;
     --red: #FF1616;
-    --yelow: #FFD913;
+    --yellow: #FFD913;
     --green: #23CF52;
     --blue: #006EFF;
     --darkGray: #2E2D2D;
@@ -29,11 +29,40 @@ html {
 }
 
 body {
-    background-image: url("resources/transit.png");
+    /* background-image: url("resources/transit.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     background-color: var(--darkGray);
     overflow: hidden;
+}
+
+#hrl {
+    position: absolute;
+    top: 50vh;
+    left: 25vw;
+    height: 1.2vh;
+    width: 50vw;
+    background-color: var(--red);
+}
+
+#lrc {
+    position: absolute;
+    top: 48.5vh;
+    left: 24vw;
+    height: calc(1.5vh + 1.5vw);
+    width: calc(1.5vh + 1.5vw);
+    border-radius: 50%;
+    background-color: var(--red);
+}
+
+#rrc {
+    position: absolute;
+    top: 48.5vh;
+    left: 74vw;
+    height: calc(1.5vh + 1.5vw);
+    width: calc(1.5vh + 1.5vw);
+    border-radius: 50%;
+    background-color: var(--red);
 }
 
 #name {
@@ -44,8 +73,8 @@ body {
 .name:visited {
     color: var(--lightGray);
     position: absolute;
-    left: 450px;
-    top: 70px;
+    left: 34vw;
+    top: 10vh;
     font-family: var(--mainFont);
     font-size: 80px;
     color: var(--lightGray);
@@ -75,25 +104,25 @@ body {
 }
 
 #about_btn {
-    top: 52.5px;
-    left: 50px;
+    top: 9vh;
+    left: 4.5vw;
     border-color: var(--red);
 }
 
 #projects_btn {
-    top: 165px;
-    left: 1280px;
+    top: 22.5vh;
+    left: 91vw;
     border-color: var(--green);
 }
 
 #interests_btn {
-    left: 20px;
-    top: 285px;
-    border-color: var(--yelow);
+    top: 90vh;
+    left: 67.5vw;
+    border-color: var(--yellow);
 }
 
 #contact_btn {
-    left: 843px;
-    top: 605px;
+    top: 82vh;
+    left: 4.5vw;
     border-color: var(--white);
 }
