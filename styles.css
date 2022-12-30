@@ -24,29 +24,26 @@ a:visited {
     text-decoration: none;
 }
 
-html {
-    overflow: hidden;
-}
-
 body {
-    /* background-image: url("resources/transit.png");
-    background-repeat: no-repeat;
-    background-size: cover; */
     background-color: var(--darkGray);
-    overflow: hidden;
 }
 
-#hrl {
-    position: absolute;
-    top: 50vh;
-    left: 25vw;
-    height: 1.2vh;
-    width: 50vw;
-    background-color: var(--red);
+/* BACKGROUND */
+
+.background {
+    height: 100%;
+    width: 100%;
 }
 
-#lrc {
+.red_line,
+.yellow_line {
     position: absolute;
+}
+
+/* RED LINE */
+
+#rlc {
+    position: relative;
     top: 48.5vh;
     left: 24vw;
     height: calc(1.5vh + 1.5vw);
@@ -55,15 +52,136 @@ body {
     background-color: var(--red);
 }
 
-#rrc {
+#rhl {
     position: absolute;
-    top: 48.5vh;
-    left: 74vw;
+    top: 1.5vh;
+    left: 1vw;
+    height: 1.2vh;
+    width: 50vw;
+    background-color: var(--red);
+}
+
+#rdll {
+    position: absolute;
+    top: -14vh;
+    left: -20vw;
+    height: 1.2vh;
+    width: 25vw;
+    background-color: var(--red);
+    transform: rotate(225deg);
+}
+
+#rrc {
+    position: relative;
+    top: 0vh;
+    left: 50vw;
     height: calc(1.5vh + 1.5vw);
     width: calc(1.5vh + 1.5vw);
     border-radius: 50%;
     background-color: var(--red);
 }
+
+#rdrl {
+    position: absolute;
+    top: 18vh;
+    left: -2vw;
+    height: 1.2vh;
+    width: 25vw;
+    background-color: var(--red);
+    transform: rotate(45deg);
+}
+
+#rbc {
+    position: absolute;
+    top: 33vh;
+    left: 18.5vw;
+    height: calc(1.5vh + 1.5vw);
+    width: calc(1.5vh + 1.5vw);
+    border-radius: 50%;
+    background-color: var(--red);
+}
+
+/* YELLOW LINE */
+
+#ylc {
+    position: relative;
+    top: 55vh;
+    left: 21vw;
+    height: calc(1.5vh + 1.5vw);
+    width: calc(1.5vh + 1.5vw);
+    border-radius: 50%;
+    background-color: var(--yellow);
+}
+
+#yhl {
+    position: absolute;
+    top: 1.5vh;
+    left: 1vw;
+    height: 1.2vh;
+    width: 53vw;
+    background-color: var(--yellow);
+}
+
+#ydll {
+    position: absolute;
+    top: -6vh;
+    left: -9vw;
+    height: 1.2vh;
+    width: 12vw;
+    background-color: var(--yellow);
+    transform: rotate(225deg);
+}
+
+#yluc {
+    position: absolute;
+    top: -16vh;
+    left: -8.5vw;
+    height: calc(1.5vh + 1.5vw);
+    width: calc(1.5vh + 1.5vw);
+    border-radius: 50%;
+    background-color: var(--yellow);
+}
+
+#ylhl {
+    position: absolute;
+    top: 1.5vh;
+    left: -5vw;
+    height: 1.2vh;
+    width: 6vw;
+    background-color: var(--yellow);
+}
+
+#yrc {
+    position: relative;
+    top: 0vh;
+    left: 53vw;
+    height: calc(1.5vh + 1.5vw);
+    width: calc(1.5vh + 1.5vw);
+    border-radius: 50%;
+    background-color: var(--yellow);
+}
+
+#yrvl {
+    position: absolute;
+    top: 15vh;
+    left: -6.4vw;
+    height: 1.2vh;
+    width: 15vw;
+    background-color: var(--yellow);
+    transform: rotate(90deg);
+}
+
+#ybc {
+    position: absolute;
+    top: 14vw;
+    bottom: 0vw;
+    height: calc(1.5vh + 1.5vw);
+    width: calc(1.5vh + 1.5vw);
+    border-radius: 50%;
+    background-color: var(--yellow);
+}
+
+/* NAME LOGO */
 
 #name {
     color: #dedede;
