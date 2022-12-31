@@ -38,8 +38,29 @@ body {
 .red_line,
 .yellow_line,
 .blue_line,
+.green_line,
 .white_line {
     position: absolute;
+}
+
+.red_line {
+    z-index: 1;
+}
+
+.yellow_line {
+    z-index: 2;
+}
+
+.blue_line {
+    z-index: 3;
+}
+
+.green_line {
+    z-index: 4;
+}
+
+.white_line {
+    z-index: 5;
 }
 
 /* RED LINE */
@@ -326,18 +347,18 @@ body {
 
 #wdl {
     position: absolute;
-    top: 11vh;
-    left: -55vw;
+    top: 9vh;
+    left: -52.5vw;
     height: 1.2vh;
-    width: 14vw;
+    width: 11vw;
     background-color: var(--white);
     transform: rotate(315deg);
 }
 
 #wllc {
     position: absolute;
-    top: 18.5vh;
-    left: -54vw;
+    top: 15vh;
+    left: -52vw;
     height: calc(1.5vh + 1.5vw);
     width: calc(1.5vh + 1.5vw);
     border-radius: 50%;
@@ -352,6 +373,86 @@ body {
     width: 9vw;
     background-color: var(--white);
     transform: rotate(90deg);
+}
+
+/* GREEN LINE */
+
+#glc {
+    position: relative;
+    top: 83vh;
+    left: 47vw;
+    height: calc(1.5vh + 1.5vw);
+    width: calc(1.5vh + 1.5vw);
+    border-radius: 50%;
+    background-color: var(--green);
+}
+
+#gluc {
+    position: absolute;
+    top: -45vh;
+    left: 0vw;
+    height: calc(1.5vh + 1.5vw);
+    width: calc(1.5vh + 1.5vw);
+    border-radius: 50%;
+    background-color: var(--green);
+}
+
+#glvl {
+    position: absolute;
+    top: -20.9vh;
+    left: -11.1vw;
+    height: 1.2vh;
+    width: 24.5vw;
+    background-color: var(--green);
+    transform: rotate(90deg);
+}
+
+#gmc {
+    position: absolute;
+    top: -45vh;
+    left: 18vw;
+    height: calc(1.5vh + 1.5vw);
+    width: calc(1.5vh + 1.5vw);
+    border-radius: 50%;
+    background-color: var(--green);
+}
+
+#glhl {
+    position: absolute;
+    top: -43.5vh;
+    left: 1vw;
+    height: 1.2vh;
+    width: 19vw;
+    background-color: var(--green);
+}
+
+#gdl {
+    position: absolute;
+    top: -51vh;
+    left: 17vw;
+    height: 1.2vh;
+    width: 13vw;
+    background-color: var(--green);
+    transform: rotate(135deg);
+}
+
+#gmrc {
+    position: absolute;
+    top: -61vh;
+    left: 27vw;
+    height: calc(1.5vh + 1.5vw);
+    width: calc(1.5vh + 1.5vw);
+    border-radius: 50%;
+    background-color: var(--green);
+}
+
+#grhl {
+    position: absolute;
+    top: -59.5vh;
+    left: 28vw;
+    height: 1.2vh;
+    width: 19vw;
+    background-color: var(--green);
 }
 
 /* NAME LOGO */
