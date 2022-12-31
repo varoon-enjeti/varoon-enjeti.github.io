@@ -164,7 +164,7 @@ body {
 
 #yrvl {
     position: absolute;
-    top: 14vh;
+    top: 15vh;
     left: -6.4vw;
     height: 1.2vh;
     width: 15vw;
@@ -239,6 +239,56 @@ body {
     left: -11vw;
     height: 1.2vh;
     width: 12vw;
+    background-color: var(--blue);
+}
+
+#bmvl {
+    position: absolute;
+    top: 8vh;
+    left: -14.4vw;
+    height: 1.2vh;
+    width: 7vw;
+    background-color: var(--blue);
+    transform: rotate(90deg);
+}
+
+#btvl {
+    position: absolute;
+    top: -11vh;
+    left: -5.35vw;
+    height: 1.2vh;
+    width: 13vw;
+    background-color: var(--blue);
+    transform: rotate(90deg);
+}
+
+#btc {
+    position: absolute;
+    top: -24vh;
+    left: 0vw;
+    height: calc(1.5vh + 1.5vw);
+    width: calc(1.5vh + 1.5vw);
+    border-radius: 50%;
+    background-color: var(--blue);
+}
+
+#bbvl {
+    position: absolute;
+    top: 19vh;
+    left: -1.4vw;
+    height: 1.2vh;
+    width: 5vw;
+    background-color: var(--blue);
+    transform: rotate(90deg);
+}
+
+#bbc {
+    position: absolute;
+    top: 21vh;
+    left: 0vw;
+    height: calc(1.5vh + 1.5vw);
+    width: calc(1.5vh + 1.5vw);
+    border-radius: 50%;
     background-color: var(--blue);
 }
 
