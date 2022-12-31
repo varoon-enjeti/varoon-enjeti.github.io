@@ -37,7 +37,8 @@ body {
 
 .red_line,
 .yellow_line,
-.blue_line {
+.blue_line,
+.white_line {
     position: absolute;
 }
 
@@ -174,8 +175,8 @@ body {
 
 #ybc {
     position: absolute;
-    top: 14vw;
-    bottom: 0vw;
+    top: 14.5vw;
+    left: 0vw;
     height: calc(1.5vh + 1.5vw);
     width: calc(1.5vh + 1.5vw);
     border-radius: 50%;
@@ -290,6 +291,67 @@ body {
     width: calc(1.5vh + 1.5vw);
     border-radius: 50%;
     background-color: var(--blue);
+}
+
+/* WHITE LINE */
+
+#wtrc {
+    position: relative;
+    top: 68vh;
+    left: 65vw;
+    height: calc(1.5vh + 1.5vw);
+    width: calc(1.5vh + 1.5vw);
+    border-radius: 50%;
+    background-color: var(--white);
+}
+
+#wtlc {
+    position: relative;
+    top: 0vh;
+    left: -44vw;
+    height: calc(1.5vh + 1.5vw);
+    width: calc(1.5vh + 1.5vw);
+    border-radius: 50%;
+    background-color: var(--white);
+}
+
+#whl {
+    position: absolute;
+    top: 1.5vh;
+    left: -42vw;
+    height: 1.2vh;
+    width: 44vw;
+    background-color: var(--white);
+}
+
+#wdl {
+    position: absolute;
+    top: 11vh;
+    left: -55vw;
+    height: 1.2vh;
+    width: 14vw;
+    background-color: var(--white);
+    transform: rotate(315deg);
+}
+
+#wllc {
+    position: absolute;
+    top: 18.5vh;
+    left: -54vw;
+    height: calc(1.5vh + 1.5vw);
+    width: calc(1.5vh + 1.5vw);
+    border-radius: 50%;
+    background-color: var(--white);
+}
+
+#wvl {
+    position: absolute;
+    top: 9vh;
+    left: -3.4vw;
+    height: 1.2vh;
+    width: 9vw;
+    background-color: var(--white);
+    transform: rotate(90deg);
 }
 
 /* NAME LOGO */
