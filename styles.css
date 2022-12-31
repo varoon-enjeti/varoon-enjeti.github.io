@@ -36,7 +36,8 @@ body {
 }
 
 .red_line,
-.yellow_line {
+.yellow_line,
+.blue_line {
     position: absolute;
 }
 
@@ -163,7 +164,7 @@ body {
 
 #yrvl {
     position: absolute;
-    top: 15vh;
+    top: 14vh;
     left: -6.4vw;
     height: 1.2vh;
     width: 15vw;
@@ -179,6 +180,66 @@ body {
     width: calc(1.5vh + 1.5vw);
     border-radius: 50%;
     background-color: var(--yellow);
+}
+
+/* BLUE LINE */
+
+#burc {
+    position: relative;
+    top: 62vh;
+    left: 42vw;
+    height: calc(1.5vh + 1.5vw);
+    width: calc(1.5vh + 1.5vw);
+    border-radius: 50%;
+    background-color: var(--blue);
+}
+
+#buhl {
+    position: absolute;
+    top: 1.5vh;
+    left: -11vw;
+    height: 1.2vh;
+    width: 12vw;
+    background-color: var(--blue);
+}
+
+#bulc {
+    position: absolute;
+    top: 0vh;
+    left: -12vw;
+    height: calc(1.5vh + 1.5vw);
+    width: calc(1.5vh + 1.5vw);
+    border-radius: 50%;
+    background-color: var(--blue);
+}
+
+#blrc {
+    position: absolute;
+    top: 12vh;
+    left: 0vw;
+    height: calc(1.5vh + 1.5vw);
+    width: calc(1.5vh + 1.5vw);
+    border-radius: 50%;
+    background-color: var(--blue);
+}
+
+#bllc {
+    position: absolute;
+    top: 12vh;
+    left: -12vw;
+    height: calc(1.5vh + 1.5vw);
+    width: calc(1.5vh + 1.5vw);
+    border-radius: 50%;
+    background-color: var(--blue);
+}
+
+#blhl {
+    position: absolute;
+    top: 13.5vh;
+    left: -11vw;
+    height: 1.2vh;
+    width: 12vw;
+    background-color: var(--blue);
 }
 
 /* NAME LOGO */
